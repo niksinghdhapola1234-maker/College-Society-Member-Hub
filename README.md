@@ -36,8 +36,8 @@ This project is built using **Kotlin**, **Jetpack Compose**, and follows the **M
 ---
 
 ## 📂 Project Structure
+
 College-Society-Member-Hub/
-│
 ├── app/
 │   └── src/
 │       └── main/
