@@ -101,9 +101,8 @@ College-Society-Member-Hub/
 
 4.Run the app on:
 
- Emulator or
+ Emulator or Physical Android device
 
- Physical Android device
 🎓 Academic Purpose
 
 This project was developed as a college-level Android application to demonstrate:
