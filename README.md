@@ -36,7 +36,7 @@ This project is built using **Kotlin**, **Jetpack Compose**, and follows the **M
 ---
 
 ## 📂 Project Structure
-College-Society-Member-Hub/
+"College-Society-Member-Hub/
 │
 ├── app/
 │ ├── src/
@@ -81,7 +81,7 @@ College-Society-Member-Hub/
 ├── settings.gradle.kts
 ├── gradlew
 ├── gradlew.bat
-└── README.md
+└── README.md"
 
 ---
 
