@@ -37,6 +37,9 @@ This project is built using **Kotlin**, **Jetpack Compose**, and follows the **M
 
 ## 📂 Project Structure
 
+## Project Structure
+
+```text
 College-Society-Member-Hub/
 ├── app/
 │   └── src/
@@ -54,27 +57,21 @@ College-Society-Member-Hub/
 │           │       │   ├── AnnouncementScreen.kt
 │           │       │   ├── AddAnnouncementScreen.kt
 │           │       │   └── AnnouncementCard.kt
-│           │       │
 │           │       ├── data/
 │           │       │   ├── Member.kt
 │           │       │   ├── Announcement.kt
 │           │       │   ├── MemberDao.kt
 │           │       │   ├── AnnouncementDao.kt
 │           │       │   └── AppDatabase.kt
-│           │       │
 │           │       ├── repository/
 │           │       │   ├── MemberRepository.kt
 │           │       │   └── AnnouncementRepository.kt
-│           │       │
 │           │       ├── viewmodel/
 │           │       │   ├── AppViewModel.kt
 │           │       │   └── AppViewModelFactory.kt
-│           │       │
 │           │       └── MainActivity.kt
-│           │
 │           ├── res/
 │           └── AndroidManifest.xml
-│
 ├── gradle/
 ├── .gitignore
 ├── build.gradle.kts
