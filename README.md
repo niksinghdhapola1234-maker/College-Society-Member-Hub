@@ -78,7 +78,7 @@ College-Society-Member-Hub/
 ├── settings.gradle.kts
 ├── gradlew
 ├── gradlew.bat
-└── README.md
+└── README.md ```
 
 
 
