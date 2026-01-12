@@ -36,44 +36,44 @@ This project is built using **Kotlin**, **Jetpack Compose**, and follows the **M
 ---
 
 ## 📂 Project Structure
-"College-Society-Member-Hub/
+College-Society-Member-Hub/
 │
 ├── app/
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/com/example/societymemberhub/
-│ │ │ │
-│ │ │ ├── ui/
-│ │ │ │ ├── FirstScreen.kt
-│ │ │ │ ├── AdminDashboard.kt
-│ │ │ │ ├── MemberDashboard.kt
-│ │ │ │ ├── MemberList.kt
-│ │ │ │ ├── MemberCard.kt
-│ │ │ │ ├── AddMemberScreen.kt
-│ │ │ │ ├── EditMemberScreen.kt
-│ │ │ │ ├── AnnouncementScreen.kt
-│ │ │ │ ├── AddAnnouncementScreen.kt
-│ │ │ │ └── AnnouncementCard.kt
-│ │ │ │
-│ │ │ ├── data/
-│ │ │ │ ├── Member.kt
-│ │ │ │ ├── Announcement.kt
-│ │ │ │ ├── MemberDao.kt
-│ │ │ │ ├── AnnouncementDao.kt
-│ │ │ │ └── AppDatabase.kt
-│ │ │ │
-│ │ │ ├── repository/
-│ │ │ │ ├── MemberRepository.kt
-│ │ │ │ └── AnnouncementRepository.kt
-│ │ │ │
-│ │ │ ├── viewmodel/
-│ │ │ │ ├── AppViewModel.kt
-│ │ │ │ └── AppViewModelFactory.kt
-│ │ │ │
-│ │ │ └── MainActivity.kt
-│ │ │
-│ │ ├── res/
-│ │ └── AndroidManifest.xml
+│   └── src/
+│       └── main/
+│           ├── java/
+│           │   └── com/example/societymemberhub/
+│           │       ├── ui/
+│           │       │   ├── FirstScreen.kt
+│           │       │   ├── AdminDashboard.kt
+│           │       │   ├── MemberDashboard.kt
+│           │       │   ├── MemberList.kt
+│           │       │   ├── MemberCard.kt
+│           │       │   ├── AddMemberScreen.kt
+│           │       │   ├── EditMemberScreen.kt
+│           │       │   ├── AnnouncementScreen.kt
+│           │       │   ├── AddAnnouncementScreen.kt
+│           │       │   └── AnnouncementCard.kt
+│           │       │
+│           │       ├── data/
+│           │       │   ├── Member.kt
+│           │       │   ├── Announcement.kt
+│           │       │   ├── MemberDao.kt
+│           │       │   ├── AnnouncementDao.kt
+│           │       │   └── AppDatabase.kt
+│           │       │
+│           │       ├── repository/
+│           │       │   ├── MemberRepository.kt
+│           │       │   └── AnnouncementRepository.kt
+│           │       │
+│           │       ├── viewmodel/
+│           │       │   ├── AppViewModel.kt
+│           │       │   └── AppViewModelFactory.kt
+│           │       │
+│           │       └── MainActivity.kt
+│           │
+│           ├── res/
+│           └── AndroidManifest.xml
 │
 ├── gradle/
 ├── .gitignore
@@ -81,9 +81,8 @@ This project is built using **Kotlin**, **Jetpack Compose**, and follows the **M
 ├── settings.gradle.kts
 ├── gradlew
 ├── gradlew.bat
-└── README.md"
+└── README.md
 
----
 
 
 ---
