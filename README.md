@@ -37,8 +37,6 @@ This project is built using **Kotlin**, **Jetpack Compose**, and follows the **M
 
 ## 📂 Project Structure
 
-## Project Structure
-
 ```text
 College-Society-Member-Hub/
 ├── app/
@@ -78,86 +76,62 @@ College-Society-Member-Hub/
 ├── settings.gradle.kts
 ├── gradlew
 ├── gradlew.bat
-└── README.md ```
-
+└── README.md
 
 
 ---
 
 ## 🧠 Architecture Overview (MVVM)
 
-### 🔹 Model
-- Room entities (`Member`, `Announcement`)
-- DAO interfaces for database operations
-- Local SQLite database via Room
+- **Model:** Room entities and database
+- **View:** Jetpack Compose UI screens
+- **ViewModel:** Handles business logic and exposes LiveData to UI
+- **Repository:** Acts as a single source of truth for data
 
-### 🔹 View
-- UI built using Jetpack Compose
-- Screens and components (`MemberList`, `AnnouncementScreen`, etc.)
-
-### 🔹 ViewModel
-- `AppViewModel` handles all business logic
-- Exposes LiveData to UI
-- Communicates with Repository layer
-
-### 🔹 Repository
-- Acts as a bridge between ViewModel and Room database
-- Ensures clean separation of concerns
-
----
+```
 
 ## ▶️ How to Run the Project
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/niksinghdhapola1234-maker/College-Society-Member-Hub.git
-Open the project in Android Studio
+2.Open the project in Android Studio
 
-Allow Gradle to sync completely
+3.Let Gradle sync complete
 
-Run the app on:
+4.Run the app on:
 
-Android Emulator OR
+ Emulator or
 
-Physical Android device
-
+ Physical Android device
 🎓 Academic Purpose
 
-This project was developed as part of a college academic requirement to demonstrate:
+This project was developed as a college-level Android application to demonstrate:
 
 Android app development skills
 
-Usage of Kotlin and Jetpack Compose
+MVVM architecture understanding
 
-MVVM architectural understanding
+Kotlin + Jetpack Compose usage
 
-Room database implementation
+Local database integration using Room
 
-Clean code and modular structure
+📌 Future Improvements
 
-🚧 Limitations
+Authentication (Admin login)
 
-No authentication system (admin login is role-based only)
+Cloud database integration (Firebase)
 
-Uses local database (no cloud sync)
+Search and filter members
 
-Basic UI without animations
+Improved UI animations
 
-🔮 Future Improvements
-
-Firebase authentication
-
-Cloud database integration
-
-Search & filter members
-
-Better UI/UX with animations
-
-Export member data to PDF/Excel
+Export member data
 
 👨‍💻 Author
 
 Nikhil Dhapola
 Android Developer (Student)
 
-GitHub: https://github.com/niksinghdhapola1234-maker
+GitHub: niksinghdhapola1234-maker
+
